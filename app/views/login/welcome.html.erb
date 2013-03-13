@@ -1,0 +1,7 @@
+# coding: utf-8
+<div>ＩＤとパスワードを入力してください</div>
+<%= form_tag "/login/welcome" do %>
+<%=text_field_tag :login_id %>
+<%=password_field_tag :password %>
+<%=submit_tag "ログイン" %>
+<% end %>

@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Pes::Application.config.secret_token = '89f4173c952c5110b658184392a17c3887438e64bebfa5a2bbf7974bed84d7e966902682e71c87cbae8b077b69b5d24e8612e4f607e696ee334c8c09e5973743'
+Pes::Application.config.secret_token = 'de8f0758f94c3a9862b968a34f102d2d671925b97d788ea21871361b9949e9b3193700f1b5d0b43db276a5157b565f131265f1431d622c8c2dd041a2ad25e09e'
