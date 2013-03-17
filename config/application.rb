@@ -60,3 +60,9 @@ module Pes
     config.assets.version = '1.0'
   end
 end
+
+class String 
+	def encode_json(encoder)
+		'"' + self + '"'
+	end
+end

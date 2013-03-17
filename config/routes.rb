@@ -3,7 +3,7 @@ Pes::Application.routes.draw do
 
   resources :users
 
- post "login/welcome"
+ post "login/login"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
