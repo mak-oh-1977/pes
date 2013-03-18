@@ -3,7 +3,7 @@ $(function($){
 		.bind("ajax:success", function(data, text_status, xhr){
 			//ここに具体的な処理を記述
 			if (text_status.res == "OK")
-				$(location).attr('href', "/users/");
+				$(location).attr('href', "/menu/");
 			else
 				alert(text_status.res);
 

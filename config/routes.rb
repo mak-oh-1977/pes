@@ -5,6 +5,8 @@ Pes::Application.routes.draw do
 
  post "login/login"
 
+	resources :menu
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
